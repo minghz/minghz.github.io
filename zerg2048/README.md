@@ -5,7 +5,6 @@ Join the swarm to get to Kerrigan!
 Overlord
 Zergling
 Baneling
-Overseer
 Queen
 Hydralisk
 Infestor
