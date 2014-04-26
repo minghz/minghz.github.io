@@ -302,12 +302,16 @@ hr {
 
 .tile {
   position: absolute;
+  color: transparent;
   -webkit-transition: 100ms ease-in-out;
   -moz-transition: 100ms ease-in-out;
   transition: 100ms ease-in-out;
   -webkit-transition-property: -webkit-transform;
   -moz-transition-property: -moz-transform;
   transition-property: transform; }
+  .tile:hover {
+    color: #CCCCFF;
+  }
   .tile .tile-inner {
     border-radius: 3px;
     background: #CCCCFF;
@@ -324,27 +328,22 @@ hr {
     background-image: url("zerg/zergling.gif");
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
-    color: #CCCCFF;
     background: #f2b179;
     background-image: url("zerg/baneling.gif");
   }
   .tile.tile-16 .tile-inner {
-    color: #CCCCFF;
     background: #f59563;
     background-image: url("zerg/queen.gif");
   }
   .tile.tile-32 .tile-inner {
-    color: #CCCCFF;
     background: #f67c5f;
     background-image: url("zerg/hydralisk.gif");
   }
   .tile.tile-64 .tile-inner {
-    color: #CCCCFF;
     background: #f65e3b;
     background-image: url("zerg/infestor.gif");
   }
   .tile.tile-128 .tile-inner {
-    color: #CCCCFF;
     background: #edcf72;
     background-image: url("zerg/mutalisk.gif");
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
@@ -353,7 +352,6 @@ hr {
       .tile.tile-128 .tile-inner {
         font-size: 25px; } }
   .tile.tile-256 .tile-inner {
-    color: #CCCCFF;
     background: #edcc61;
     background-image: url("zerg/corruptor.gif");
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
@@ -362,7 +360,6 @@ hr {
       .tile.tile-256 .tile-inner {
         font-size: 25px; } }
   .tile.tile-512 .tile-inner {
-    color: #CCCCFF;
     background: #edc850;
     background-image: url("zerg/broodlord.gif");
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
@@ -371,7 +368,6 @@ hr {
       .tile.tile-512 .tile-inner {
         font-size: 25px; } }
   .tile.tile-1024 .tile-inner {
-    color: #CCCCFF;
     background: #edc53f;
     background-image: url("zerg/ultralisk.gif");
     background-position: center;
@@ -381,7 +377,6 @@ hr {
       .tile.tile-1024 .tile-inner {
         font-size: 15px; } }
   .tile.tile-2048 .tile-inner {
-    color: #CCCCFF;
     background: #edc22e;
     background-image: url("zerg/kerrigan.gif");
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
@@ -390,7 +385,6 @@ hr {
       .tile.tile-2048 .tile-inner {
         font-size: 15px; } }
   .tile.tile-super .tile-inner {
-    color: #CCCCFF;
     background-image: url("zerg/raynor.gif");
     background-position: center;
     font-size: 30px; }
