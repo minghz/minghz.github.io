@@ -11,3 +11,6 @@ Professionally, I'm a Computer Engineer, and I work at
 
 In my spare time, I like to saciate my curiosity by learning a bunch of different
 things that aren't necessarially related to technology.
+
+This site is still under construction, but I will soon update it with some links
+to some random shenannigans I've been up to.
